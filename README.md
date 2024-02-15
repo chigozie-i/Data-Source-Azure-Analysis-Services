@@ -30,6 +30,22 @@ Data Sources:
 
 This documentation project focuses on Azure Analysis Services
 
+Azure Analysis Services represents a fully managed Platform as a Service (PaaS) offering, delivering enterprise-grade semantic models within the cloud. With its advanced mashup and modeling capabilities, users can amalgamate data from diverse sources, establish metrics, and fortify data security within a single, trusted tabular semantic model. This model furnishes users with a more accessible and expedient means of conducting ad hoc data analysis through tools such as Power BI.
+
+In the context of our scenario, Imaginary Inc. leverages Azure Analysis Services for storing financial projection data. Your task is to compare this data with actual sales data residing in a separate database. 
+
+Retrieving data from an Azure Analysis Services server mirrors the process of acquiring data from SQL Server, encompassing steps such as server authentication, model selection, and table specification.
+
+Notable differences between Azure Analysis Services and SQL Server are:
+•	Analysis Services models have calculations already created.
+•	If you don’t need an entire table, you can query the data directly. Instead of using Transact-SQL (T-SQL) to query the data, like you would in SQL Server, you can use multi-dimensional expressions (MDX) or data analysis expressions (DAX).
+
+
+Upon selecting Analysis Services, you'll be prompted to provide the server address and database name, with two available options: Import and Connect live.
+
+![AAS I](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/blob/main/AAS%20I.png)
+
+![AAS II](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/blob/main/AAS%20II.png)
 
 ## Reference:  
 https://learn.microsoft.com  
