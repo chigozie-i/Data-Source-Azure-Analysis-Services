@@ -16,7 +16,7 @@ The method by which you establish connectivity to your data source holds conside
 ## Data Sources:
 Sometimes, you may be required to build Microsoft Power BI reports, with data sourced from various databases and files. These data sources vary, with some housed in Microsoft SQL Server and others in Microsoft Excel, yet they are all interconnected.
 
- ![Data Source]()
+ ![Data Source](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/blob/main/Data%20sources.png)
 
 Prior to report creation, it's essential to extract data from the various data sources. As the interaction with the sources differ, familiarizing yourself with the intricacies of the source platforms is imperative to report building within Power BI.
 Data Sources:
