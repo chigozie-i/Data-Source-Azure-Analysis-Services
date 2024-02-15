@@ -47,6 +47,16 @@ Upon selecting Analysis Services, you'll be prompted to provide the server addre
 
 ![AAS II](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/blob/main/AAS%20II.png)
 
+The "Connect live" option in Azure Analysis Services allows for seamless integration of data and DAX calculations within their original location, bypassing the necessity to import them into Power BI. Leveraging this option can result in a swift refresh schedule within Azure Analysis Services, ensuring immediate updates to Power BI reports whenever data is refreshed in the service, thereby enhancing the timeliness of data in your reports.
+
+Alternatively, an acceptable approach involves importing all other data (e.g., from Excel, SQL Server, etc.) into the Azure Analysis Services model and subsequently utilizing a live connection. This streamlined method consolidates semantic modeling and DAX measures within a singular location, simplifying the solution architecture.
+
+## Conclusion:
+
+The selection of an appropriate data source connection method in Microsoft Power BI is paramount for ensuring the efficiency and accuracy of data analysis processes. This documentation has delved into the significance of this choice, particularly focusing on Azure Analysis Services (AAS) as a robust option for enterprise-grade semantic modeling and data analysis. By leveraging AAS, organizations can amalgamate data from diverse sources, establish metrics, and enhance data security within a single, trusted tabular semantic model.  
+Understanding the nuances between AAS and traditional SQL Server connections is crucial, as it influences the approach to querying and analyzing data. As organizations navigate the complexities of their data ecosystems, making informed decisions regarding data source connectivity will be instrumental in driving strategic insights and fostering operational efficiency.
+
+
 ## Reference:  
 https://learn.microsoft.com  
 https://docs.microsoft.com
