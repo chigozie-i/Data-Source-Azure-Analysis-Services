@@ -42,6 +42,6 @@ https://docs.microsoft.com
 
 #### Did you find this document helpful? Leave a Star
 
-[![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Azure-Analysis-Services.svg?style=social)](https://github.com/chigozie-i/Azure-Analysis-Services/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Data-Source-Azure-Analysis-Services.svg?style=social)](https://github.com/chigozie-i/Data-Source-Azure-Analysis-Services/stargazers)
 
 #### You may make a contribution to help us improve on our documentation by submitting a pull request.
